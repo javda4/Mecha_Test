@@ -7,4 +7,4 @@ Modify camera.py by changing one line
 <br>
 original: cap = cv2.VideoCapture()
 
-What it should be: cap = cv2.VideoCapture(0)
+What it should be: cap = cv2.VideoCapture(0) << that is the number zero
