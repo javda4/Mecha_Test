@@ -5,7 +5,7 @@
 #get the repository on your local device
 
 ```
-git clone [URL]
+git clone <URL>
 ```
 
 ## Branch
