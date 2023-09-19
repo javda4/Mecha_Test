@@ -1,57 +1,85 @@
 # Mecha_Test
 
-#THIS IS IF USING GIT BASH
 
+## git clone
 #get the repository on your local device
 
+```
 git clone [URL]
+```
 
-######### BRANCH ############
-#create new branch
+## Branch
 
+### create new branch
+
+```
 git branch <new_branch_name>
+```
 
-#go to (branch)
+### go to (branch)
 
-git checkout -b (branch)
+```
+git checkout -b <branch>
+```
 
-#create new branch within specified branch
+### create new branch within specified branch
 
+```
 git checkout -b (branch) (branch your creating)
+```
 
-#delete branch
+### delete branch
 
+```
 git branch -d (branch)
+```
 
 
+## The entire process of pushing to github
 
-########PUSHING FILE TO BRANCH
-#check the status of files that have been changed
+### check the status of files that have been changed
 
+```
 git status
-
-#add files that were worked on 
-
+```
+## git add
+### add a file that has been modified to staged
+```
 git add (filename)
+```
 
-#undo commits
+### add all modified files to staged
 
+```
+git add *
+```
+
+### undo
+
+```
 git reset
+```
 
 or
 
+```
 git reset [file]
-
-#commit file to local git
+```
+## git commit
+### commit all files that have been staged by git add
 
 git commit -m "brief description of change"
 
-#push your changes for people to see
+## git push
 
-git push origin [Name_of_Branch] or head
+```
+git push origin <Name_of_Branch>
+```
 
-#display list of all commits on current branch
+### display list of all commits on current branch
 
+```
 git log
+```
 
 #press q to close out of git log
