@@ -25,13 +25,13 @@ git checkout -b <branch>
 ### create new branch within specified branch
 
 ```
-git checkout -b (branch) (branch your creating)
+git checkout -b <branch> <branch your creating>
 ```
 
 ### delete branch
 
 ```
-git branch -d (branch)
+git branch -d <branch>
 ```
 
 
@@ -45,7 +45,7 @@ git status
 ## git add
 ### add a file that has been modified to staged
 ```
-git add (filename)
+git add <filename>
 ```
 
 ### add all modified files to staged
@@ -63,8 +63,9 @@ git reset
 or
 
 ```
-git reset [file]
+git reset <file>
 ```
+
 ## git commit
 ### commit all files that have been staged by git add
 
