@@ -9,6 +9,8 @@ original: cap = cv2.VideoCapture()
 
 What it should be: cap = cv2.VideoCapture(0) << that is the number zero
 
+There is also one more error I want you to find
+
 
 <br>
 
