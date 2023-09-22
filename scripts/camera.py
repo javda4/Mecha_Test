@@ -1,7 +1,7 @@
 import cv2
 import os
 
-# Initialize the camera (0 is typically the built-in camera)
+# Initialize the camera (0 is typically the built-in camera or plug and play camera)
 cap = cv2.VideoCapture()
 
 # Check if the camera opened successfully
