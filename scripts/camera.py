@@ -2,7 +2,7 @@ import cv2
 import os
 
 # Initialize the camera (0 is typically the built-in camera or plug and play camera)
-cap = cv2.VideoCapture()
+cap = cv2.VideoCapture(0)   # used to have no param, passed 0 to fix
 
 # Check if the camera opened successfully
 if not cap.isOpened():
@@ -27,7 +27,7 @@ while True:
         break
 
     # Display the captured frame in a window
-    cv2.imshow('Camera Feed', )
+    cv2.imshow('Camera Feed', frame)    # used to have no 2nd param, passed frame to fix
 
     # Check for key presses
     key = cv2.waitKey(1)
