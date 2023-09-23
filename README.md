@@ -10,13 +10,7 @@ git clone <URL>
 
 ## Branch
 
-### create new branch
-
-```
-git branch <new_branch_name>
-```
-
-### go to (branch)
+### make and go to (branch)
 
 ```
 git checkout -b <branch>
